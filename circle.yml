@@ -1,11 +1,5 @@
-# The deployment section should be excluded until
-# it is explicitly included in module 5
-# change added and one more
-# additional test change
-# modified the environment variable in CircleCI
-#
 deployment:
-  hub:
+  dockerhub:
     branch: master
     commands:
       - $DOCKER_HUB_TRIGGER
